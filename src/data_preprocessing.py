@@ -12,12 +12,11 @@ and exports cleaned data for downstream NLP tasks.
 # ===============================================
 
 # ---- 1. Install required packages ----
-!pip -q install pandas openpyxl
 
 import re
 import pandas as pd
 from io import BytesIO
-from google.colab import files
+input_file = "data/raw/policy_data.xlsx"
 
 # ---- 2. Upload Excel file  ----
 # This cell will prompt you to select and upload an .xlsx file from your computer
