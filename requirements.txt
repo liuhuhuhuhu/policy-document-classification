@@ -1,2 +1,6 @@
 pandas
 openpyxl
+transformers
+torch
+spacy
+numpy
